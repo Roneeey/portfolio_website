@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Shojumaru&display=swap");
 
 .para-wrapper {
   height: 100vh;
@@ -58,7 +60,7 @@ html {
 }
 
 body {
-  font-family: "Black Ops One", sans-serif;
+  font-family: "Cherry Cream Soda", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #777;
