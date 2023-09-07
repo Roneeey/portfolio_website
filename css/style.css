@@ -32,10 +32,10 @@
 }
 
 .animated-star {
-  width: 1rem;
-  height: 1rem;
+  width: 0.7rem;
+  height: 0.7rem;
   background-color: rgba(255, 255, 255, 0.8);
-  animation: starflash 8s infinite ease-in-out;
+  animation: starflash 6s infinite ease-in-out;
   border-radius: 50%;
   position: absolute;
   top: 25%;
