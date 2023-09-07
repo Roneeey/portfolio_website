@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
 .para-wrapper {
   height: 100vh;
   overflow-y: auto;
@@ -35,6 +37,7 @@
   width: 0.7rem;
   height: 0.7rem;
   background-color: rgba(255, 255, 255, 0.8);
+  transform: translateZ(-1rem);
   animation: starflash 6s infinite ease-in-out;
   border-radius: 50%;
   position: absolute;
@@ -55,7 +58,7 @@ html {
 }
 
 body {
-  font-family: "Syne", sans-serif;
+  font-family: "Black Ops One", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #777;
@@ -354,27 +357,27 @@ body {
 
 @keyframes starflash {
   0% {
-    box-shadow: 0 0 10px 2px #fff;
+    box-shadow: 0 0 5px 1px #fff;
     transform: scale(10%);
     opacity: 0.8;
   }
   50% {
-    box-shadow: 0 0 15px 3px #fff;
+    box-shadow: 0 0 10px 2px #ff7d04;
     transform: scale(80%);
     opacity: 0.9;
   }
   70% {
-    box-shadow: 0 0 20px 4px #fff;
+    box-shadow: 0 0 15px 3px #ff7d04;
     transform: scale(60%);
     opacity: 1;
   }
   80% {
-    box-shadow: 0 0 15px 3px #fff;
+    box-shadow: 0 0 10px 2px #ff7d04;
     transform: scale(30%);
     opacity: 1;
   }
   100% {
-    box-shadow: 0 0 10px 2px #fff;
+    box-shadow: 0 0 5px 1px #fff;
     transform: scale(10%);
     opacity: 0.8;
   }
